@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="On explicit save action" promptOnRemoteOverwrite="CHECK_CONTENT" serverName="SeoContext.su" autoUploadExternalChanges="true" notifyRemoteChanges="true">
+    <serverData>
+      <paths name="SeoContext.su">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/bitrix/tools" />
+            <excludedPath path="/bitrix/sounds" />
+            <excludedPath path="/bitrix/image_uploader" />
+            <excludedPath path="/bitrix/gadgets" />
+            <excludedPath path="/bitrix/cache" />
+            <excludedPath path="/bitrix/wizards" />
+            <excludedPath path="/bitrix/admin" />
+            <excludedPath path="/bitrix/fonts" />
+            <excludedPath path="/bitrix/managed_cache" />
+            <excludedPath path="/bitrix/updates" />
+            <excludedPath path="/bitrix/php_interface" />
+            <excludedPath path="/bitrix/css" />
+            <excludedPath path="/bitrix/modules" />
+            <excludedPath path="/bitrix/components" />
+            <excludedPath path="/bitrix/panel" />
+            <excludedPath path="/bitrix/tmp" />
+            <excludedPath path="/bitrix/html_pages" />
+            <excludedPath path="/bitrix/js" />
+            <excludedPath path="/bitrix/images" />
+            <excludedPath path="/bitrix/themes" />
+            <excludedPath path="/upload" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/tools" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/sounds" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/image_uploader" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/gadgets" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/cache" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/wizards" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/admin" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/fonts" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/managed_cache" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/updates" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/php_interface" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/css" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/modules" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/components" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/panel" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/tmp" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/html_pages" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/js" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/images" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/themes" />
+            <excludedPath local="true" path="$PROJECT_DIR$/upload" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+  </component>
+</project>
