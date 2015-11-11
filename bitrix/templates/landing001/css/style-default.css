@@ -1154,9 +1154,7 @@ fieldset[disabled] .btn {
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.3);
 }
 #pricing .offer-best:before {
-  content: 'BEST!';
-  text-transform: uppercase;
-  font-size: .875em;
+  background: url(../img/icons/best.png); ;
   position: absolute;
   width: 100%;
   margin-top: -25px;
@@ -1532,9 +1530,10 @@ footer .sm span {
   #pricing {
     margin-bottom: 60px;
   }
-  #pricing .offer-best:before {
+
+  /*#pricing .offer-best:before {
     display: none;
-  }
+  }*/
   #pricing .offer .offer-features p {
     padding: 10px 0;
   }
