@@ -116,9 +116,8 @@ IncludeTemplateLangFile(__FILE__);
                                         
             </div>
 			<div class="phone-cont">
-                
-                <span class="phone-primary"><?$APPLICATION->ShowProperty("telephone");?></span>
-                
+                <a href="tel:<?$APPLICATION->ShowProperty("telephone");?>" class="phone-primary" title="Номер телефона студии SeoContext"><?$APPLICATION->ShowProperty("telephone");?></a>
+                <button type="button" class="btn btn-lg btn-tel">Обратный звонок</button>
             </div>
              
             <!-- "BURGER MENU" FOR RESPONSIVE VIEW -->

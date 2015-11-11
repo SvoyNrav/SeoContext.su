@@ -1,4 +1,4 @@
-<section id="header" class="parallax" style="background:url(/include/bg03.jpg) fixed;">
+<section id="header" class="parallax" style="background:url(/include/background.png) fixed;">
         
       <!-- FOR COLOR OVERLAY, CHANGE CLASS TO color-overlay -->
       <div class="overlay">
@@ -18,7 +18,11 @@
                           <h1>
                               
                               <!-- SMALL TITLE -->
-                              Реализация проекта «под ключ»:<br/>
+                              Реализация проекта <br/>
+                              «под ключ»:<br/>
+                              <span class="header-txt-small">- Разработка сайта</span><br/>
+                              <span class="header-txt-small">- Продвижение</span><br/>
+                              <span class="header-txt-small">- Контекстная реклама</span><br/>
                               
                               <!-- REGULAR TITLE -->
                               <span class="header-txt-small">от </span><span class="header-txt-color">25 000</span><span class="header-txt-small"> руб.</span>
@@ -26,7 +30,6 @@
                           </h1>
                           
                           <!-- SUBTITLE -->
-                          <h3>Студия "SeoContext"</h3>
                           
                       </header>
                       
@@ -71,7 +74,7 @@
                     
                     <!-- PRODUCT IMAGE -->
                     <div class="header-image-right">
-                        <img class="anim-from-right" src="<?=SITE_TEMPLATE_PATH?>/img/header/img-iphone.png" alt>
+                        <img class="anim-from-right" src="<?=SITE_TEMPLATE_PATH?>/img/header/startap.png" alt>
                     </div>
                     
                   </div>

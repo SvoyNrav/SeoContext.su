@@ -1,8 +1,7 @@
 <section id="gallery" class="caption-margin">
 <!-- SECTION TITLE -->
 <h2 class="anim-fade-down">
-<!-- TITLE --> Галерея<br>
- <!-- SUBTITLE --> наши лучшие работы! </h2>
+<!-- TITLE --> Наши проекты</h2>
  <!-- GALLERY CAROUSEL -->
 <?$APPLICATION->IncludeComponent(
 	"bitrix:news.list", 

@@ -19,23 +19,22 @@
               <div class="col-md-12 team-member">
                 
                 <!-- AVATAR -->
-                <img class="avatar" src="<?=SITE_TEMPLATE_PATH?>/img/avatars/03.jpg" alt>
+                <img class="avatar" src="<?=SITE_TEMPLATE_PATH?>/img/avatars/01.jpg" alt>
                 
                 <!-- SOCIAL MEDIA LINKS -->
                 <p class="socialmedia">
                     <a href="#facebook"><span class="social_facebook_circle"></span></a>
                     <a href="#twitter"><span class="social_twitter_circle"></span></a> 
-                    <a href="#googleplus"><span class="social_skype_circle"></span></a>
-                    <a href="#instagram"><span class="social_instagram_circle"></span></a>
+                    <a href="skype:live:sharapudinov"><span class="social_skype_circle"></span></a>
                 </p>
                 
                 <p class="personal">
                     
                     <!-- NAME -->
-                    Имя фамилия
-                    
+                    Шамиль Шарапудинов
+
                     <!-- OCCUPATION -->
-                    <span>Должность</span>
+                    <span>Технический директор</span>
                     
                 </p>
               </div>
@@ -50,22 +49,45 @@
                 <p class="socialmedia">
                     <a href="#facebook"><span class="social_facebook_circle"></span></a>
                     <a href="#twitter"><span class="social_twitter_circle"></span></a> 
-                    <a href="#googleplus"><span class="social_skype_circle"></span></a>
-                    <a href="#instagram"><span class="social_instagram_circle"></span></a>
+                    <a href="skype:svoynrav"><span class="social_skype_circle"></span></a>
                 </p>
                 
                 <p class="personal">
                     
                     <!-- NAME -->
-                    Имя фамилия
+                    Дмитрий</br> Мойсеенко
                     
                     <!-- OCCUPATION -->
-                    <span>Должность</span>
+                    <span>Руководитель SEO-отдела</span>
                     
                 </p>
               </div>
               
               <!-- TEAM MEMBER 3 -->
+              <div class="col-md-12 team-member">
+                
+                <!-- AVATAR -->
+                <img class="avatar" src="<?=SITE_TEMPLATE_PATH?>/img/avatars/03.jpg" alt>
+                
+                <!-- SOCIAL MEDIA LINKS -->
+                <p class="socialmedia">
+                    <a href="#facebook"><span class="social_facebook_circle"></span></a>
+                    <a href="#twitter"><span class="social_twitter_circle"></span></a> 
+                    <a href="skype:subbotin-oleg"><span class="social_skype_circle"></span></a>
+                </p>
+                
+                <p class="personal">
+                    
+                    <!-- NAME -->
+                    Олег</br> Субботин
+                    
+                    <!-- OCCUPATION -->
+                    <span>Ведущий дизайнер</span>
+                    
+                </p>
+              </div>
+              
+              <!-- TEAM MEMBER 4 -->
               <div class="col-md-12 team-member">
                 
                 <!-- AVATAR -->
@@ -75,22 +97,21 @@
                 <p class="socialmedia">
                     <a href="#facebook"><span class="social_facebook_circle"></span></a>
                     <a href="#twitter"><span class="social_twitter_circle"></span></a> 
-                    <a href="#googleplus"><span class="social_skype_circle"></span></a>
-                    <a href="#instagram"><span class="social_instagram_circle"></span></a>
+                    <a href="skype:icewallker"><span class="social_skype_circle"></span></a>
                 </p>
                 
                 <p class="personal">
                     
                     <!-- NAME -->
-                    Имя фамилия
+                    Роман</br> Слипыч
                     
                     <!-- OCCUPATION -->
-                    <span>Должность</span>
+                    <span>SEO-оптимизатор</span>
                     
                 </p>
               </div>
               
-              <!-- TEAM MEMBER 4 -->
+              <!-- TEAM MEMBER 5 -->
               <div class="col-md-12 team-member">
                 
                 <!-- AVATAR -->
@@ -100,197 +121,21 @@
                 <p class="socialmedia">
                     <a href="#facebook"><span class="social_facebook_circle"></span></a>
                     <a href="#twitter"><span class="social_twitter_circle"></span></a> 
-                    <a href="#googleplus"><span class="social_skype_circle"></span></a>
-                    <a href="#instagram"><span class="social_instagram_circle"></span></a>
+                    <a href="skype:drezdenm"><span class="social_skype_circle"></span></a>
                 </p>
                 
                 <p class="personal">
                     
                     <!-- NAME -->
-                    Имя фамилия
+                    Александр Толстенков
                     
                     <!-- OCCUPATION -->
-                    <span>Должность</span>
-                    
-                </p>
-              </div>
-              
-              <!-- TEAM MEMBER 5 -->
-              <div class="col-md-12 team-member">
-                
-                <!-- AVATAR -->
-                <img class="avatar" src="<?=SITE_TEMPLATE_PATH?>/img/avatars/01.jpg" alt>
-                
-                <!-- SOCIAL MEDIA LINKS -->
-                <p class="socialmedia">
-                    <a href="#facebook"><span class="social_facebook_circle"></span></a>
-                    <a href="#twitter"><span class="social_twitter_circle"></span></a> 
-                    <a href="#googleplus"><span class="social_skype_circle"></span></a>
-                    <a href="#instagram"><span class="social_instagram_circle"></span></a>
-                </p>
-                
-                <p class="personal">
-                    
-                    <!-- NAME -->
-                    Имя фамилия
-                    
-                    <!-- OCCUPATION -->
-                    <span>Должность</span>
+                    <span>Специалист по контекстной рекламы</span>
                     
                 </p>
               </div>
               
               <!-- TEAM MEMBER 6 -->
-              <div class="col-md-12 team-member">
-                
-                <!-- AVATAR -->
-                <img class="avatar" src="<?=SITE_TEMPLATE_PATH?>/img/avatars/12.jpg" alt>
-                
-                <!-- SOCIAL MEDIA LINKS -->
-                <p class="socialmedia">
-                    <a href="#facebook"><span class="social_facebook_circle"></span></a>
-                    <a href="#twitter"><span class="social_twitter_circle"></span></a> 
-                    <a href="#googleplus"><span class="social_skype_circle"></span></a>
-                    <a href="#instagram"><span class="social_instagram_circle"></span></a>
-                </p>
-                
-                <p class="personal">
-                    
-                    <!-- NAME -->
-                    Имя фамилия
-                    
-                    <!-- OCCUPATION -->
-                    <span>Должность</span>
-                    
-                </p>
-              </div>
-              
-              <!-- TEAM MEMBER 7 -->
-              <div class="col-md-12 team-member">
-                
-                <!-- AVATAR -->
-                <img class="avatar" src="<?=SITE_TEMPLATE_PATH?>/img/avatars/07.jpg" alt>
-                
-                <!-- SOCIAL MEDIA LINKS -->
-                <p class="socialmedia">
-                    <a href="#facebook"><span class="social_facebook_circle"></span></a>
-                    <a href="#twitter"><span class="social_twitter_circle"></span></a> 
-                    <a href="#googleplus"><span class="social_skype_circle"></span></a>
-                    <a href="#instagram"><span class="social_instagram_circle"></span></a>
-                </p>
-                
-                <p class="personal">
-                    
-                    <!-- NAME -->
-                    Имя фамилия
-                    
-                    <!-- OCCUPATION -->
-                    <span>Должность</span>
-                    
-                </p>
-              </div>
-              
-              <!-- TEAM MEMBER 8 -->
-              <div class="col-md-12 team-member">
-                
-                <!-- AVATAR -->
-                <img class="avatar" src="<?=SITE_TEMPLATE_PATH?>/img/avatars/08.jpg" alt>
-                
-                <!-- SOCIAL MEDIA LINKS -->
-                <p class="socialmedia">
-                    <a href="#facebook"><span class="social_facebook_circle"></span></a>
-                    <a href="#twitter"><span class="social_twitter_circle"></span></a> 
-                    <a href="#googleplus"><span class="social_skype_circle"></span></a>
-                    <a href="#instagram"><span class="social_instagram_circle"></span></a>
-                </p>
-                
-                <p class="personal">
-                    
-                    <!-- NAME -->
-                    Имя фамилия
-                    
-                    <!-- OCCUPATION -->
-                    <span>Должность</span>
-                    
-                </p>
-              </div>
-              
-              <!-- TEAM MEMBER 9 -->
-              <div class="col-md-12 team-member">
-                
-                <!-- AVATAR -->
-                <img class="avatar" src="<?=SITE_TEMPLATE_PATH?>/img/avatars/09.jpg" alt>
-                
-                <!-- SOCIAL MEDIA LINKS -->
-                <p class="socialmedia">
-                    <a href="#facebook"><span class="social_facebook_circle"></span></a>
-                    <a href="#twitter"><span class="social_twitter_circle"></span></a> 
-                    <a href="#googleplus"><span class="social_skype_circle"></span></a>
-                    <a href="#instagram"><span class="social_instagram_circle"></span></a>
-                </p>
-                
-                <p class="personal">
-                    
-                    <!-- NAME -->
-                    Имя фамилия
-                    
-                    <!-- OCCUPATION -->
-                    <span>Должность</span>
-                    
-                </p>
-              </div>
-              
-              <!-- TEAM MEMBER 10 -->
-              <div class="col-md-12 team-member">
-                
-                <!-- AVATAR -->
-                <img class="avatar" src="<?=SITE_TEMPLATE_PATH?>/img/avatars/10.jpg" alt>
-                
-                <!-- SOCIAL MEDIA LINKS -->
-                <p class="socialmedia">
-                    <a href="#facebook"><span class="social_facebook_circle"></span></a>
-                    <a href="#twitter"><span class="social_twitter_circle"></span></a> 
-                    <a href="#googleplus"><span class="social_skype_circle"></span></a>
-                    <a href="#instagram"><span class="social_instagram_circle"></span></a>
-                </p>
-                
-                <p class="personal">
-                    
-                    <!-- NAME -->
-                    Имя фамилия
-                    
-                    <!-- OCCUPATION -->
-                    <span>Должность</span>
-                    
-                </p>
-              </div>
-              
-              <!-- TEAM MEMBER 11 -->
-              <div class="col-md-12 team-member">
-                
-                <!-- AVATAR -->
-                <img class="avatar" src="<?=SITE_TEMPLATE_PATH?>/img/avatars/11.jpg" alt>
-                
-                <!-- SOCIAL MEDIA LINKS -->
-                <p class="socialmedia">
-                    <a href="#facebook"><span class="social_facebook_circle"></span></a>
-                    <a href="#twitter"><span class="social_twitter_circle"></span></a> 
-                    <a href="#googleplus"><span class="social_skype_circle"></span></a>
-                    <a href="#instagram"><span class="social_instagram_circle"></span></a>
-                </p>
-                
-                <p class="personal">
-                    
-                    <!-- NAME -->
-                    Имя фамилия
-                    
-                    <!-- OCCUPATION -->
-                    <span>Должность</span>
-                    
-                </p>
-              </div>
-              
-              <!-- TEAM MEMBER 12 -->
               <div class="col-md-12 team-member">
                 
                 <!-- AVATAR -->
@@ -300,21 +145,20 @@
                 <p class="socialmedia">
                     <a href="#facebook"><span class="social_facebook_circle"></span></a>
                     <a href="#twitter"><span class="social_twitter_circle"></span></a> 
-                    <a href="#googleplus"><span class="social_skype_circle"></span></a>
-                    <a href="#instagram"><span class="social_instagram_circle"></span></a>
+                    <a href="skype:"><span class="social_skype_circle"></span></a>
                 </p>
                 
                 <p class="personal">
                     
                     <!-- NAME -->
-                    Имя фамилия
+                    Алексей</br> Астафьев
                     
                     <!-- OCCUPATION -->
-                    <span>Должность</span>
+                    <span>SMM-специалист</span>
                     
                 </p>
               </div>
-              
+
           </div>
       </div>
     </section>

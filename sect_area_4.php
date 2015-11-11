@@ -24,14 +24,14 @@
                           <div class="row">
                             
                               <!-- AVATAR -->
-                              <div class="col-md-2 col-xs-12"><img src="<?=SITE_TEMPLATE_PATH?>/img/avatars/01.jpg" class="avatar" alt></div>
+                              <div class="col-md-2 col-xs-12"><img src="<?=SITE_TEMPLATE_PATH?>/img/avatars/07.jpg" class="avatar" alt></div>
                               
                               <!-- TESTIMONIAL TEXT -->
                               <div class="col-md-10 col-xs-12">
-                                  <p>Положительный отзыв вашего клиента, с подробным описанием ваших качеств и плюсов.</p>
+                                  <p>Всеми работами по созданию нового интернет-магазина и продвижению доверили данному агенству. Результатом довольны, продажи идут очень хорошо - а это главное!</p>
                                   
                                   <!-- AUTHOR -->
-                                  <p class="person">Имя Фамилия <span>Должность</span></p>
+                                  <p class="person">Олег Раннев <span>Руководитель отдела продаж ITProm</span></p>
                                   
                               </div>
                           </div>
@@ -42,7 +42,7 @@
                           <div class="row">
                             
                               <!-- AVATAR -->
-                              <div class="col-md-2 col-xs-12"><img src="<?=SITE_TEMPLATE_PATH?>/img/avatars/02.jpg" class="avatar" alt></div>
+                              <div class="col-md-2 col-xs-12"><img src="<?=SITE_TEMPLATE_PATH?>/img/avatars/07.jpg" class="avatar" alt></div>
                               
                               <!-- TESTIMONIAL TEXT -->
                               <div class="col-md-10 col-xs-12">
@@ -60,7 +60,7 @@
                           <div class="row">
                             
                               <!-- AVATAR -->
-                              <div class="col-md-2 col-xs-12"><img src="<?=SITE_TEMPLATE_PATH?>/img/avatars/04.jpg" class="avatar" alt></div>
+                              <div class="col-md-2 col-xs-12"><img src="<?=SITE_TEMPLATE_PATH?>/img/avatars/07.jpg" class="avatar" alt></div>
                               
                               <!-- TESTIMONIAL TEXT -->
                               <div class="col-md-10 col-xs-12">
