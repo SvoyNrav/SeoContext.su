@@ -4,7 +4,7 @@
       <h2 class="anim-fade-up">
         
           <!-- MAIN TITLE -->
-          О нас<br/>
+          Наши услуги<br/>
           
           <!-- SUBTITLE -->
           <span>Студия "SeoContext"</span>
@@ -32,7 +32,7 @@
                 <div class="col-md-6 about-img">
                   
                     <!-- PLACE YOUR ABOUT IMAGE BELOW -->
-                    <img src="<?=SITE_TEMPLATE_PATH?>/img/about/01.png" class="anim-from-right" alt>
+                    <img src="<?=SITE_TEMPLATE_PATH?>/img/about/icons-about-01.png" class="anim-from-right" alt>
                       
                 </div>
                 
@@ -49,7 +49,7 @@
                 <div class="col-md-6 about-img">
                   
                     <!-- PLACE YOUR ABOUT IMAGE BELOW -->
-                    <img src="<?=SITE_TEMPLATE_PATH?>/img/about/02.png" class="anim-from-left" alt>
+                    <img src="<?=SITE_TEMPLATE_PATH?>/img/about/icons-about-02.png" class="anim-from-left" alt>
                       
                 </div>
                 
@@ -81,8 +81,8 @@
                   <h3 class="anim-from-left">Контекстная реклама</h3>
                   
                   <!-- ABOUT DESCRIPTION -->
-                  <p class="anim-from-left">Текст описывающий вашу компанию или фирму. Дополнительный текст, текст текст текст.</p>
-                  <p class="anim-from-left">Воторой абзац для описания вашей фирмы или компании. Текст , дополнительный текст, текст текст текст текст. Основной описывающий текст этого предложения!</p>
+                  <p class="anim-from-left">Контекстная реклама — один из наиболее удобных способов продвижения Вашего сайта с использованием поисковых систем Яндекс Директ, Google AdWords. Ее особенность — избирательность. Такую рекламу в виде текстовых объявлений или баннеров видят только те пользователи Интернета, которые заинтересованы в предлагаемых Вами товарах или услугах.</p>
+                  <p class="anim-from-left">Контекстная реклама, как поисковая, так и тематическая, чрезвычайно эффективна. Различие между ними заключается в месте размещения: показы поисковой происходят в ответ на запросы пользователей сети Интернет, а тематическая располагается на странице соответствующего ресурса и воспринимается в качестве дополнительной информации.</p>
                   
                 </div>
                 
@@ -90,7 +90,7 @@
                 <div class="col-md-6 about-img">
                   
                     <!-- PLACE YOUR ABOUT IMAGE BELOW -->
-                    <img src="<?=SITE_TEMPLATE_PATH?>/img/about/01.png" class="anim-from-right" alt>
+                    <img src="<?=SITE_TEMPLATE_PATH?>/img/about/icons-about-03.png" class="anim-from-right" alt>
                       
                 </div>
                 
@@ -98,91 +98,118 @@
           </div>
       </div>
 
-      <!-- ABOUT CONTAINER - TEXT ALIGN TO LEFT -->
-      <div class="about-cont">
-          <div class="container">
-              <div class="row">
-                
-                <!-- ABOUT IMAGE -->
-                <div class="col-md-6 about-img">
-                  
-                    <!-- PLACE YOUR ABOUT IMAGE BELOW -->
-                    <img src="<?=SITE_TEMPLATE_PATH?>/img/about/02.png" class="anim-from-left" alt>
-                      
-                </div>
-                
-                <!-- ABOUT TEXT SECTION -->
-                <div class="col-md-6">
-                  
-                  <!-- ABOUT TITLE -->
-                  <h3 class="anim-from-right">Медийная реклама</h3>
-                  
-                  <!-- ABOUT DESCRIPTION -->
-                  <p class="anim-from-right">Текст описывающий вашу компанию или фирму. Дополнительный текст, текст текст текст.</p>
-                  <p class="anim-from-right">Воторой абзац для описания вашей фирмы или компании. Текст , дополнительный текст, текст текст текст текст. Основной описывающий текст этого предложения!</p>
-                  
-                </div>
-                
-              </div>
-          </div>
-      </div>
+    <div class="row load-more anim-fade-down">
+        <button type="button" class="btn btn-lg btn-primary" data-toggle="collapse" data-target="#MoreAbout">
 
-<!-- ABOUT CONTAINER - TEXT ALIGN TO RIGHT -->
-      <div class="about-cont bg-grey about-to-right">
-          <div class="container">
-              <div class="row">
-                
-                <!-- ABOUT TEXT SECTION -->
-                <div class="col-md-6">
-                  
-                  <!-- ABOUT TITLE -->
-                  <h3 class="anim-from-left">SMM - продвижение в социальных сетях</h3>
-                  
-                  <!-- ABOUT DESCRIPTION -->
-                  <p class="anim-from-left">Текст описывающий вашу компанию или фирму. Дополнительный текст, текст текст текст.</p>
-                  <p class="anim-from-left">Воторой абзац для описания вашей фирмы или компании. Текст , дополнительный текст, текст текст текст текст. Основной описывающий текст этого предложения!</p>
-                  
-                </div>
-                
-                <!-- ABOUT IMAGE -->
-                <div class="col-md-6 about-img">
-                  
-                    <!-- PLACE YOUR ABOUT IMAGE BELOW -->
-                    <img src="<?=SITE_TEMPLATE_PATH?>/img/about/01.png" class="anim-from-right" alt>
-                      
-                </div>
-                
-              </div>
-          </div>
-      </div>
+            Остальные услуги
 
-      <!-- ABOUT CONTAINER - TEXT ALIGN TO LEFT -->
-      <div class="about-cont">
-          <div class="container">
-              <div class="row">
-                
-                <!-- ABOUT IMAGE -->
-                <div class="col-md-6 about-img">
-                  
-                    <!-- PLACE YOUR ABOUT IMAGE BELOW -->
-                    <img src="<?=SITE_TEMPLATE_PATH?>/img/about/02.png" class="anim-from-left" alt>
-                      
-                </div>
-                
-                <!-- ABOUT TEXT SECTION -->
-                <div class="col-md-6">
-                  
-                  <!-- ABOUT TITLE -->
-                  <h3 class="anim-from-right">SERP - управление репутацией</h3>
-                  
-                  <!-- ABOUT DESCRIPTION -->
-                  <p class="anim-from-right">Текст описывающий вашу компанию или фирму. Дополнительный текст, текст текст текст.</p>
-                  <p class="anim-from-right">Воторой абзац для описания вашей фирмы или компании. Текст , дополнительный текст, текст текст текст текст. Основной описывающий текст этого предложения!</p>
-                  
-                </div>
-                
-              </div>
-          </div>
-      </div>
+        </button>
+    </div>
 
-    </section>
+    <div class="row">
+        <div id="MoreAbout" class="panel-collapse collapse">
+
+              <!-- ABOUT CONTAINER - TEXT ALIGN TO LEFT -->
+              <div class="about-cont">
+                  <div class="container">
+                      <div class="row">
+
+                        <!-- ABOUT IMAGE -->
+                        <div class="col-md-6 about-img">
+
+                            <!-- PLACE YOUR ABOUT IMAGE BELOW -->
+                            <img src="<?=SITE_TEMPLATE_PATH?>/img/about/icons-about-04.png" class="anim-from-left" alt>
+
+                        </div>
+
+                        <!-- ABOUT TEXT SECTION -->
+                        <div class="col-md-6">
+
+                          <!-- ABOUT TITLE -->
+                          <h3 class="anim-from-right">Медийная реклама</h3>
+
+                          <!-- ABOUT DESCRIPTION -->
+                          <p class="anim-from-right">Медийная реклама в интернете – это проверенный способ быстро заявить о себе потенциальным клиентам. Грамотный подбор площадок, таргетинг на целевую аудиторию, эффектный формат и дизайн, правильное размещение и детальная аналитика от наших специалистов обеспечат вам узнаваемость бренда, вывод на рынок нового продукта, выполнение плана продаж.</p>
+                          <p class="anim-from-right">Баннерная реклама необходима, когда стоит задача:</p>
+                          <p class="anim-from-right">- Повысить узнаваемость бренда;</p>
+                          <p class="anim-from-right">- Укрепить престиж и привлекательность бренда;</p>
+                          <p class="anim-from-right">- Сформировать спрос на ряд товаров или услуг;</p>
+                          <p class="anim-from-right">- Быстро информировать ЦА о новом продукте;</p>
+                          <p class="anim-from-right">- Распространить информацию об акциях, скидках, конкурсах.</p>
+
+                          </p>
+
+                        </div>
+
+                      </div>
+                  </div>
+              </div>
+
+        <!-- ABOUT CONTAINER - TEXT ALIGN TO RIGHT -->
+              <div class="about-cont bg-grey about-to-right">
+                  <div class="container">
+                      <div class="row">
+
+                        <!-- ABOUT TEXT SECTION -->
+                        <div class="col-md-6">
+
+                          <!-- ABOUT TITLE -->
+                          <h3 class="anim-from-left">SMM - продвижение в социальных сетях</h3>
+
+                          <!-- ABOUT DESCRIPTION -->
+                          <p class="anim-from-left">Создание сообщества позволяет собрать целевую аудиторию на одной площадке, что дает возможность продвигать товары и услуги и оказывать влияние на репутацию компании. Корпоративная страничка обеспечивает постоянную связь с клиентами и повышает имидж компании.</p>
+                          <p class="anim-from-left">- Создание и брендирование сообщества в сетях: ВКонтакте, Facebook, Мой Мир, Одноклассники, Twitter, Instagram, LinkedIn, Foursquare;</p>
+                          <p class="anim-from-left">- Создание и публикация образовательного или развлекательного контента;</p>
+                          <p class="anim-from-left">- Определение приоритетных аудиторных сегментов;</p>
+                          <p class="anim-from-left">- Поддержка лояльных пользователей, взаимодействие с лидерами мнений;</p>
+                          <p class="anim-from-left">- Организация конкурсов и акций;</p>
+                          <p class="anim-from-left">- Разработка и продвижение приложений и игр для социальных сетей;</p>
+                          <p class="anim-from-left">- Репутационный менеджмент.</p>
+
+                        </div>
+
+                        <!-- ABOUT IMAGE -->
+                        <div class="col-md-6 about-img">
+
+                            <!-- PLACE YOUR ABOUT IMAGE BELOW -->
+                            <img src="<?=SITE_TEMPLATE_PATH?>/img/about/icons-about-05.png" class="anim-from-right" alt>
+
+                        </div>
+
+                      </div>
+                  </div>
+              </div>
+
+              <!-- ABOUT CONTAINER - TEXT ALIGN TO LEFT -->
+              <div class="about-cont">
+                  <div class="container">
+                      <div class="row">
+
+                        <!-- ABOUT IMAGE -->
+                        <div class="col-md-6 about-img">
+
+                            <!-- PLACE YOUR ABOUT IMAGE BELOW -->
+                            <img src="<?=SITE_TEMPLATE_PATH?>/img/about/icons-about-06.png" class="anim-from-left" alt>
+
+                        </div>
+
+                        <!-- ABOUT TEXT SECTION -->
+                        <div class="col-md-6">
+
+                          <!-- ABOUT TITLE -->
+                          <h3 class="anim-from-right">SERP - управление репутацией</h3>
+
+                          <!-- ABOUT DESCRIPTION -->
+                          <p class="anim-from-right">Текст описывающий вашу компанию или фирму. Дополнительный текст, текст текст текст.</p>
+                          <p class="anim-from-right">Воторой абзац для описания вашей фирмы или компании. Текст , дополнительный текст, текст текст текст текст. Основной описывающий текст этого предложения!</p>
+
+                        </div>
+
+                      </div>
+                  </div>
+              </div>
+
+        </div>
+    </div>
+
+</section>

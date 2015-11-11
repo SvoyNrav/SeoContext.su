@@ -8,7 +8,7 @@
                 <h6>Адрес</h6>
                 
                 <!-- COLUMN CONTENT -->
-                <p>г.Ставрополь<br/> Ленина 1234, 22 этаж</p>
+                <p>Москва, БЦ Север Сити<br/> Серебряническая наб., 29</p>
                 
             </div>
             
@@ -20,8 +20,7 @@
                 
                 <!-- COLUMN CONTENT - LIST OF LINKS -->
                 <ul>
-                    <li>Пн-пт 9:00-21:00</li>
-                    <li>Сб-вс выходной</li>
+                    <li>Ежедневно 9:00-20:00</li>
                 </ul>
                 
             </div>
@@ -33,10 +32,7 @@
                 <h6>Телефоны</h6>
                 
                 <!-- COLUMN CONTENT - LIST OF LINKS -->
-                <ul>
-                    <li><span>Мобильный: </span> +7 123 123 123</li>
-                    <li><span>Факс:</span> +7 123 901 234</li>
-                </ul>
+                <a href="tel:+79898998393" class="breakit" title="Телефон веб-студии SeoContext">+7(989)8998393</a>
                 
             </div>
             
@@ -47,7 +43,7 @@
                 <h6>E-mail</h6>
                 
                 <!-- COLUMN CONTENT -->
-                <p class="breakit">support@landing.ru</p>
+                <a href="mailto:info@seocontext.su" class="breakit" title="Почта веб-студии SeoContext">info@seocontext.su</a>
                 
             </div>
             

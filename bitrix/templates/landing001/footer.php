@@ -15,44 +15,11 @@ IncludeTemplateLangFile(__FILE__);
           <!-- SOCIAL MEDIA -->
           <div class="col-sm-4">
             
-              <!-- FACEBOOK -->
-              <a href="#">
-                  <div class="sm">
-                      <span class="elegant social_facebook"></span>
-                  </div>
-              </a>
-              
-              <!-- TWITTER -->
-              <a href="#">
-                  <div class="sm">
-                      <span class="elegant social_twitter"></span>
-                  </div>
-              </a>
-              
-              <!-- GOOGLE PLUS -->
-              <a href="#">
-                  <div class="sm">
-                      <span class="elegant social_googleplus"></span>
-                  </div>
-              </a>
-              
-              <!-- INSTAGRAM -->
-              <a href="#">
-                  <div class="sm">
-                      <span class="elegant social_instagram"></span>
-                  </div>
-              </a>
-              
-              <!-- YOUTUBE -->
-              <a href="#">
-                  <div class="sm">
-                      <span class="elegant social_youtube"></span>
-                  </div>
-              </a>
-              <div id="bx-composite-banner">
-              </div>
+              <ul class="rek-logo">
+                  <li><img src="<?=SITE_TEMPLATE_PATH?>/img/icons/rek-icon-01.png" alt=""></li>
+                  <li><img src="<?=SITE_TEMPLATE_PATH?>/img/icons/rek-icon-02.png" alt=""></li>
+              </ul>
 
-              
           </div>
           
           <!-- COPYRIGHT -->

@@ -50,6 +50,8 @@
             <excludedPath local="true" path="$PROJECT_DIR$/bitrix/images" />
             <excludedPath local="true" path="$PROJECT_DIR$/bitrix/themes" />
             <excludedPath local="true" path="$PROJECT_DIR$/upload" />
+            <excludedPath path="/bitrix/.settings.php" />
+            <excludedPath path="/bitrix/license_key.php" />
           </excludedPaths>
         </serverdata>
       </paths>

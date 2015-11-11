@@ -1,7 +1,121 @@
+/* font-family: "NerisThin"; */
+@font-face {
+  font-family: "NerisThin";
+  src: url("../fonts/NerisThin/NerisThin.eot");
+  src: url("../fonts/NerisThin/NerisThin.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/NerisThin/NerisThin.woff") format("woff"),
+  url("../fonts/NerisThin/NerisThin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "NerisLight"; */
+@font-face {
+  font-family: "NerisLight";
+  src: url("../fonts/NerisLight/NerisLight.eot");
+  src: url("../fonts/NerisLight/NerisLight.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/NerisLight/NerisLight.woff") format("woff"),
+  url("../fonts/NerisLight/NerisLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "NerisSemiBold"; */
+@font-face {
+  font-family: "NerisSemiBold";
+  src: url("../fonts/NerisSemiBold/NerisSemiBold.eot");
+  src: url("../fonts/NerisSemiBold/NerisSemiBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/NerisSemiBold/NerisSemiBold.woff") format("woff"),
+  url("../fonts/NerisSemiBold/NerisSemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "NerisBoldItalic"; */
+@font-face {
+  font-family: "NerisBoldItalic";
+  src: url("../fonts/NerisBoldItalic/NerisBoldItalic.eot");
+  src: url("../fonts/NerisBoldItalic/NerisBoldItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/NerisBoldItalic/NerisBoldItalic.woff") format("woff"),
+  url("../fonts/NerisBoldItalic/NerisBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "NerisLightItalic"; */
+@font-face {
+  font-family: "NerisLightItalic";
+  src: url("../fonts/NerisLightItalic/NerisLightItalic.eot");
+  src: url("../fonts/NerisLightItalic/NerisLightItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/NerisLightItalic/NerisLightItalic.woff") format("woff"),
+  url("../fonts/NerisLightItalic/NerisLightItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "NerisThinItalic"; */
+@font-face {
+  font-family: "NerisThinItalic";
+  src: url("../fonts/NerisThinItalic/NerisThinItalic.eot");
+  src: url("../fonts/NerisThinItalic/NerisThinItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/NerisThinItalic/NerisThinItalic.woff") format("woff"),
+  url("../fonts/NerisThinItalic/NerisThinItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "NerisSemiBoldItalic"; */
+@font-face {
+  font-family: "NerisSemiBoldItalic";
+  src: url("../fonts/NerisSemiBoldItalic/NerisSemiBoldItalic.eot");
+  src: url("../fonts/NerisSemiBoldItalic/NerisSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/NerisSemiBoldItalic/NerisSemiBoldItalic.woff") format("woff"),
+  url("../fonts/NerisSemiBoldItalic/NerisSemiBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
+/* font-family: "CaviarDreamsRegular"; */
+@font-face {
+  font-family: "CaviarDreamsRegular";
+  src: url("../fonts/CaviarDreamsRegular/CaviarDreamsRegular.eot");
+  src: url("../fonts/CaviarDreamsRegular/CaviarDreamsRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/CaviarDreamsRegular/CaviarDreamsRegular.woff") format("woff"),
+  url("../fonts/CaviarDreamsRegular/CaviarDreamsRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "CaviarDreamsBold"; */
+@font-face {
+  font-family: "CaviarDreamsBold";
+  src: url("../fonts/CaviarDreamsBold/CaviarDreamsBold.eot");
+  src: url("../fonts/CaviarDreamsBold/CaviarDreamsBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/CaviarDreamsBold/CaviarDreamsBold.woff") format("woff"),
+  url("../fonts/CaviarDreamsBold/CaviarDreamsBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "CaviarDreamsItalic"; */
+@font-face {
+  font-family: "CaviarDreamsItalic";
+  src: url("../fonts/CaviarDreamsItalic/CaviarDreamsItalic.eot");
+  src: url("../fonts/CaviarDreamsItalic/CaviarDreamsItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/CaviarDreamsItalic/CaviarDreamsItalic.woff") format("woff"),
+  url("../fonts/CaviarDreamsItalic/CaviarDreamsItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "CaviarDreamsBoldItalic"; */
+@font-face {
+  font-family: "CaviarDreamsBoldItalic";
+  src: url("../fonts/CaviarDreamsBoldItalic/CaviarDreamsBoldItalic.eot");
+  src: url("../fonts/CaviarDreamsBoldItalic/CaviarDreamsBoldItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/CaviarDreamsBoldItalic/CaviarDreamsBoldItalic.woff") format("woff"),
+  url("../fonts/CaviarDreamsBoldItalic/CaviarDreamsBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
 body {
   background: #ffffff;
   color: #333333;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'CaviarDreamsRegular', sans-serif;
   font-weight: 400;
   font-size: 16px;
   overflow-x: hidden;
@@ -18,6 +132,7 @@ a:hover {
   color: #3d3d3d;
 }
 h2 {
+  font-family: "NerisThin";
   text-align: center;
   color: #333333;
   font-weight: 900;
@@ -149,7 +264,15 @@ h6 {
   border-color: #4e4e4e;
   font-weight: 600;
 }
+.btn-tel {
+  background: #27aae1;
+  border-color: #27aae1;
+  font-family: "NerisThin",sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
 .btn-primary:hover,
+.btn-tel:hover,
 .btn-primary:active,
 .btn-primary:focus,
 .btn-success:hover,
@@ -326,14 +449,15 @@ fieldset[disabled] .btn {
 .main-menu {
   background: #ffffff;
   height: auto;
-  padding: 13px 0 15px 0;
+  padding: 5px 0 15px 0;
 }
 .main-menu .navbar-nav {
-  padding: 8px 0 0 0;
+  padding: 25px 0 0 0;
 }
 .main-menu .navbar-nav a {
   color: #666666;
   border-radius: 5px;
+  font-size: 22px;
 }
 .main-menu .navbar-collapse a {
   padding-top: 11px;
@@ -385,6 +509,7 @@ fieldset[disabled] .btn {
 
 .main-menu .phone-cont {
   float: right;
+  max-width: 200px;
 }
 .main-menu .btn-primary,
 .main-menu .btn-success {
@@ -394,7 +519,9 @@ fieldset[disabled] .btn {
   margin-left: 20px;
 }
 .main-menu .btn {
-  margin-left: 10px;
+  margin-left: 30px;
+  font-weight: 600;
+  color: #FFF;
 }
 
 .modal-dialog {
@@ -498,11 +625,12 @@ fieldset[disabled] .btn {
   display: block;
 }
 .phone-primary {
-  margin: 10px 0 0 0;
+  /*margin: 20px 0 0 0;*/
   display: inline-block;
-  padding: 10px 18px;
-  font-size: 14px;
-  font-family: arial;
+  padding: 2px 18px;
+  font-size: 24px;
+  /*font-family: arial;*/
+  font-family: "CaviarDreamsBold";
 }
 .owl-nav div {
   position: absolute;
@@ -569,11 +697,12 @@ fieldset[disabled] .btn {
 }
 
 #header {
-  background: url(../img/header/bg03.jpg) fixed;
+  background: url(../img/header/background.png) fixed;
+  background-size: cover;
   height: 100vh;
-  max-height: 890px;
+  max-height: 780px;
   min-height: 690px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 #header .container {
   height: 100%;
@@ -607,8 +736,13 @@ fieldset[disabled] .btn {
   height: 100%;
 }
 #header .header-image-right {
-  margin-top: -100px;
+  margin-top: -182px;
+  margin-left: -206px;
 }
+
+    #header .header-image-right img{
+      max-width: 848px;
+    }
 
 #header header {
   margin-bottom: 30px;
@@ -621,10 +755,11 @@ fieldset[disabled] .btn {
   color: #ffffff;
 }
 #header h1 {
-  font-size: 6.25em;
+  font-family: "NerisThin";
+  font-size: 3.25em;
   text-transform: uppercase;
   font-weight: 900;
-  line-height: 0.75em;
+  line-height: 1em;
 }
 #header h3 {
   font-size: 2.25em;
@@ -654,9 +789,8 @@ fieldset[disabled] .btn {
 #header .btn a {
   color: inherit;
   width: 100%;
-  height: 100%;
   display: block;
-  padding: 8px 20px 20px;
+  padding: 15px 30px 20px;
 }
 #header .btn-subscribe {
   display: block;
@@ -770,7 +904,7 @@ fieldset[disabled] .btn {
   font-size: 5.5em;
 }
 #features .feature h5 {
-  margin-top: 32px;
+  margin-top: 20px;
 }
 #features .feature:hover {
   box-shadow: inset 0px 0px 0px 1px #e2e2e2;
@@ -795,6 +929,59 @@ fieldset[disabled] .btn {
   z-index: -1;
 }
 #features .load-more .btn {
+  margin: 0 auto;
+  display: block;
+  font-weight: 600;
+  font-size: 1em;
+  padding: 15px 5%;
+}
+
+#about .load-more {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+#about .load-more:before {
+  border-top: 2px solid #f3f3f3;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 95%;
+  z-index: -1;
+}
+#about .load-more .btn {
+  margin: 0 auto;
+  display: block;
+  font-weight: 600;
+  font-size: 1em;
+  padding: 15px 5%;
+}
+
+#pricing .load-more {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+#pricing .load-more:before {
+  border-top: 2px solid #f3f3f3;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 95%;
+  z-index: -1;
+}
+
+#pricing .load-more .btn {
   margin: 0 auto;
   display: block;
   font-weight: 600;
@@ -828,7 +1015,7 @@ fieldset[disabled] .btn {
 }
 
 #testimonials {
-  background: url(../img/parallax_bg/01.jpg);
+  background: url(../img/header/background.png);
   background-size: cover;
 }
 .carousel-element {
@@ -860,8 +1047,8 @@ fieldset[disabled] .btn {
 }
 
 #logos {
-  padding: 30px 0 25px;
-  margin-bottom: 80px;
+  padding: 10px 0 25px;
+  margin-bottom: 40px;
 }
 #logos img {
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
@@ -1042,7 +1229,7 @@ fieldset[disabled] .btn {
 }
 
 #tabs {
-  background: url(../img/parallax_bg/01.jpg);
+  background: url(../img/header/background.png);
   background-size: cover;
   margin-bottom: 80px;
 }
@@ -1420,6 +1607,7 @@ footer .sm span {
     font-size: 5em !important;
   }
   #header .buttons-cont {
+    display: block;
     text-align: center;
   }
   #header .btn {
@@ -1581,3 +1769,55 @@ footer .sm span {
     position: absolute;
   }
 }
+
+.icon-sites{
+  display: block;
+  height: 182px;
+  width: 240px;
+  margin-left: 15%;
+  background: url(../img/icons/icons-site.png) no-repeat;
+  background-size: 100%;
+}
+
+.icon-raket{
+  display: block;
+  height: 182px;
+  width: 155px;
+  margin-left: 30%;
+  background: url(../img/icons/icons-raket.png) no-repeat;
+  background-size: 100%;
+}
+
+.icon-consalt{
+  display: block;
+  height: 182px;
+  width: 150px;
+  margin-left: 30%;
+  background: url(../img/icons/icons_consalt.png) no-repeat;
+  background-size: 100%;
+}
+
+.icons-feature{
+  width: 150px;
+}
+
+.logo-partner{
+  text-align: center;
+}
+
+    .logo-partner img{
+      margin-bottom: 5px;
+    }
+
+.partner-top{
+  margin-bottom: 30px;
+}
+
+.rek-logo{
+  list-style: none;
+}
+
+    .rek-logo li{
+      float: left;
+      margin-left: 20px;
+    }

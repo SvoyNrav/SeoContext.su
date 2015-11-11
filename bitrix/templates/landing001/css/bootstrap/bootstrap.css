@@ -2935,6 +2935,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand > img {
   display: block;
+  width: 125px;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
@@ -3136,7 +3137,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-right {
     float: right !important;
-    margin-right: 5px;
+    margin-right: 35px;
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
