@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d794fe1c-889a-4ad7-b55d-85d94bda0c6b" name="SeoContext.su" url="http://b2153.dhpage.net">
+        <fileTransfer host="b2153.dhpage.net" port="21" rootFolder="/www/seocontext.su" password="dffadfc1dfccdfc8dfcedfdbdfd2df9d" username="b2153">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

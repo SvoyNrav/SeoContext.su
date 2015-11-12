@@ -68,10 +68,10 @@
                           <span class="elegant icon_cloud-upload_alt anim-bounce"></span>
                           
                           <!-- NUMBER -->
-                          <p class="count no-count">753</p>
+                          <p class="count no-count">14</p>
                           
                           <!-- DESCRIPTION -->
-                          <p class="desc">Файлов загружено <br/> на сервер</p>
+                          <p class="desc">Проектов <br/> на поддержке</p>
                           
                       </div>
                       
@@ -82,7 +82,7 @@
                           <span class="elegant icon_mug_alt anim-bounce"></span>
                           
                           <!-- NUMBER -->
-                          <p class="count no-count">21</p>
+                          <p class="count no-count">28</p>
                           
                           <!-- DESCRIPTION -->
                           <p class="desc">Ещё дополнительное <br/>кофе</p>
