@@ -181,10 +181,10 @@ $(document).ready(function(){
   prefix : '',
   suffix : '' 
   }
-  var count01 = new countUp("count01", 0, 65, 0, 3, options);
-  var count02 = new countUp("count02", 0, 104, 0, 4, options);
-  var count03 = new countUp("count03", 0, 1027, 0, 5, options);
-  var count04 = new countUp("count04", 0, 25, 0, 2.5, options);
+  var count01 = new countUp("count01", 0, 12, 0, 3, options);
+  var count02 = new countUp("count02", 0, 18, 0, 4, options);
+  var count03 = new countUp("count03", 0, 33, 0, 5, options);
+  var count04 = new countUp("count04", 0, 21, 0, 2.5, options);
   
   $('#count01').on('inview', function(event, isInView, visiblePartX, visiblePartY) {if (isInView) {count01.start();} return false;});
   $('#count02').on('inview', function(event, isInView, visiblePartX, visiblePartY) {if (isInView) {count02.start();} return false;});

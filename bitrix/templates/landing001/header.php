@@ -36,11 +36,16 @@ IncludeTemplateLangFile(__FILE__);
       
     <!-- ELEGANT ICON PACK FOR YOUR PAGE -->
 	<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH.'/css/icons/elegant.css');?>
-	
-	
+
 <!-- =========================
-     MAIN STYLESHEETS   
+     Font Awesome
 ============================== -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+    <!-- =========================
+         MAIN STYLESHEETS
+    ============================== -->
     <!-- BOOTSTRAP -->
 	<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH.'/css/bootstrap/bootstrap.css');?>
 	<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH.'/css/bootstrap/bootstrap.css.map');?>

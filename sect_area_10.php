@@ -9,13 +9,13 @@
                       <div class="carousel-element col-md-12">
                         
                           <!-- ICON -->
-                          <span class="elegant icon_mug anim-bounce"></span>
-                          
+                          <i class="fa fa-users about-icon"></i>
+
                           <!-- NUMBER COUNT UP (DEFINATED IN alive.scripts.js) -->
                           <p id="count01" class="count"></p>
                           
                           <!-- DESCRIPTION -->
-                          <p class="desc">Чашек кофе<br/>выпито</p>
+                          <p class="desc">Профессионалов<br/>в команде</p>
                           
                       </div>
                       
@@ -29,7 +29,7 @@
                           <p id="count02" class="count"></p>
                           
                           <!-- DESCRIPTION -->
-                          <p class="desc">Телефонных<br/>разговоров</p>
+                          <p class="desc">Веб-сайтов<br/>разработано</p>
                           
                       </div>
                       
@@ -43,7 +43,7 @@
                           <p id="count03" class="count"></p>
                           
                           <!-- DESCRIPTION -->
-                          <p class="desc">Пересмотрено<br/>изображений</p>
+                          <p class="desc">Проектов<br/>на продвижении</p>
                           
                       </div>
                       
@@ -57,7 +57,7 @@
                           <p id="count04" class="count"></p>
                           
                           <!-- DESCRIPTION -->
-                          <p class="desc">Количество<br/>правок</p>
+                          <p class="desc">Проект<br/>на контекстной рекламе</p>
                           
                       </div>
                       
