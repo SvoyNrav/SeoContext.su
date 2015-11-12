@@ -9,7 +9,7 @@
                       <div class="carousel-element col-md-12">
                         
                           <!-- ICON -->
-                          <i class="fa fa-users about-icon"></i>
+                          <i class="about-icon fa fa-users"></i>
 
                           <!-- NUMBER COUNT UP (DEFINATED IN alive.scripts.js) -->
                           <p id="count01" class="count"></p>
@@ -23,8 +23,8 @@
                       <div class="carousel-element col-md-12">
                         
                           <!-- ICON -->
-                          <span class="elegant icon_mobile anim-bounce"></span>
-                          
+                          <i class="about-icon fa fa-laptop"></i>
+
                           <!-- NUMBER COUNT UP (DEFINATED IN alive.scripts.js) -->
                           <p id="count02" class="count"></p>
                           
@@ -37,13 +37,13 @@
                       <div class="carousel-element col-md-12">
                         
                           <!-- ICON -->
-                          <span class="elegant icon_camera_alt anim-bounce"></span>
+                          <i class="about-icon fa fa-line-chart"></i>
                           
                           <!-- NUMBER COUNT UP (DEFINATED IN alive.scripts.js) -->
                           <p id="count03" class="count"></p>
                           
                           <!-- DESCRIPTION -->
-                          <p class="desc">Проектов<br/>на продвижении</p>
+                          <p class="desc">Проекта<br/>на продвижении</p>
                           
                       </div>
                       
@@ -51,7 +51,7 @@
                       <div class="carousel-element col-md-12">
                         
                           <!-- ICON -->
-                          <span class="elegant icon_cogs anim-bounce"></span>
+                          <i class="about-icon fa fa-list-alt"></i>
                           
                           <!-- NUMBER COUNT UP (DEFINATED IN alive.scripts.js) -->
                           <p id="count04" class="count"></p>
@@ -65,7 +65,7 @@
                       <div class="carousel-element col-md-12">
                         
                           <!-- ICON -->
-                          <span class="elegant icon_cloud-upload_alt anim-bounce"></span>
+                          <i class="about-icon fa fa-cogs"></i>
                           
                           <!-- NUMBER -->
                           <p class="count no-count">14</p>
@@ -79,13 +79,13 @@
                       <div class="carousel-element col-md-12">
                         
                           <!-- ICON -->
-                          <span class="elegant icon_mug_alt anim-bounce"></span>
+                          <i class="about-icon fa fa-child"></i>
                           
                           <!-- NUMBER -->
-                          <p class="count no-count">28</p>
+                          <p class="count no-count">147</p>
                           
                           <!-- DESCRIPTION -->
-                          <p class="desc">Ещё дополнительное <br/>кофе</p>
+                          <p class="desc">Довольных <br/>клиентов</p>
                           
                       </div>
                       

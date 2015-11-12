@@ -1821,6 +1821,6 @@ footer .sm span {
       margin-left: 20px;
     }
 
-.about-icon{
-  font-size: 12rem;
+.carousel-element .about-icon{
+  font-size: 85px;
 }
