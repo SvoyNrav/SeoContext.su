@@ -73,7 +73,7 @@ IncludeTemplateLangFile(__FILE__);
     
     <!--CUSTOM THEME SCRIPTS & SETTINGS -->
     <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/alive.scripts.js"></script>
-	
+
 
 	<?//$APPLICATION->ShowViewContent('myCarousel');?>
 
