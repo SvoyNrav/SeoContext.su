@@ -100,25 +100,7 @@ $(document).ready(function(){
     loop: true,
     nav:false,
     items: 1,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        350:{
-            items:2,
-            nav:true
-        },
-        560:{
-            items:3,
-            nav:true
-        },
-        1000:{
-            items:4,
-            nav:true,
-            loop:false
-        }
-    }
+    responsive:true,
     });
 
   ////////// FUN FACTS

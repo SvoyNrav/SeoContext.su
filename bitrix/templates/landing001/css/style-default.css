@@ -1280,6 +1280,16 @@ fieldset[disabled] .btn {
 #gallery h2 {
   margin-bottom: 60px;
 }
+
+#gallery .carousel-gallery .name {
+  color: #DA4A3A;
+  font-weight: 400 !important;
+  text-transform: none !important;
+  font-size: 1.8em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 #gallery .carousel-gallery .image {
   width: 97%;
   padding: 0 1.5%;
