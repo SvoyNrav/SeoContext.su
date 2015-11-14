@@ -23,15 +23,13 @@
                 data: <?=json_encode($arParams)?>,
                 complete: function () {
                     validator(jQuery);
+                    $('#submit_ajax').on('click',function(){
+                        $.post('<?=SITE_TEMPLATE_PATH?>/form.php',{'success':'<?=bitrix_sessid()?>'},function(result){
+                            $('#ajax').html(result);
+                        })
+                    })
                 }
-            }/*(jQuery);
-             $('#submit_ajax').on('click',function(){
-             $.post('<?=SITE_TEMPLATE_PATH?>/ajax/form.php',{'success':'<?=bitrix_sessid()?>'},function(result){
-             $('#ajax').html(result);
-             })
-             })*/
-
-
+            }
         });
     });
 </script>
