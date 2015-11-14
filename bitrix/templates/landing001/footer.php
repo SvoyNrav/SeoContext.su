@@ -16,8 +16,7 @@ IncludeTemplateLangFile(__FILE__);
           <div class="col-sm-4">
             
               <ul class="rek-logo">
-                  <li><img src="<?=SITE_TEMPLATE_PATH?>/img/icons/rek-icon-01.png" alt=""></li>
-                  <li><img src="<?=SITE_TEMPLATE_PATH?>/img/icons/rek-icon-02.png" alt=""></li>
+                  <!--<li><img src="/include/logo.png" alt=""></li>-->
               </ul>
 
           </div>

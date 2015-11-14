@@ -99,7 +99,7 @@ $(document).ready(function(){
   $("#carousel-gallery").owlCarousel({
     loop: true,
     nav:false,
-    items: 4,
+    items: 1,
     responsive:{
         0:{
             items:1,
