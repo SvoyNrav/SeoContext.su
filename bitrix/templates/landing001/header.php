@@ -17,7 +17,7 @@
           FAV & TOUCH ICONS
     ============================== -->
     <!-- FAVICON FOR DESKTOPS -->
-    <link rel="icon" href="<?= SITE_TEMPLATE_PATH ?>/img/favicon/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= SITE_TEMPLATE_PATH ?>/img/favicon/favicon.gif">
 
     <!-- SET OF FAVICONS FOR APPLE PRODUCTS -->
     <link rel="apple-touch-icon" href="<?= SITE_TEMPLATE_PATH ?>/img/favicon/apple-touch-icon.png">
@@ -26,6 +26,9 @@
           href="<?= SITE_TEMPLATE_PATH ?>/img/favicon/apple-touch-icon-114x114.png">
     <!-- JQUERY -->
     <? $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . "/js/jquery_1.11.1.min.js") ?>
+    <!-- Add fancyBox -->
+    <? $APPLICATION->SetAdditionalCSS("/js/fancybox/source/jquery.fancybox.css?v=2.1.5"); ?>
+    <? $APPLICATION->AddHeadScript("/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5") ?>
 
 
     <!-- =========================
