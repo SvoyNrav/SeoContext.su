@@ -26,9 +26,6 @@
           href="<?= SITE_TEMPLATE_PATH ?>/img/favicon/apple-touch-icon-114x114.png">
     <!-- JQUERY -->
     <? $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . "/js/jquery_1.11.1.min.js") ?>
-    <!-- Add fancyBox -->
-    <? $APPLICATION->SetAdditionalCSS("/js/fancybox/source/jquery.fancybox.css?v=2.1.5"); ?>
-    <? $APPLICATION->AddHeadScript("/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5") ?>
 
 
     <!-- =========================
