@@ -41,7 +41,7 @@
                         <div class="btn btn-lg btn-success anim-bounce-left">
                             <? $APPLICATION->IncludeComponent(
                                 "akropol:feedback.main",
-                                "feedback_modal",
+                                "order_site_modal",
                                 [
                                     "COMPONENT_TEMPLATE"         => ".default",
                                     "FORM_TITLE"                 => "Оставьте заявку на создание сайта",
@@ -121,7 +121,7 @@
 
                     <!-- PRODUCT IMAGE -->
                     <div class="header-image-right">
-                        <img class="anim-from-right" src="<?= SITE_TEMPLATE_PATH ?>/img/header/startap.png" alt>
+                        <img class="anim-from-right" src="<?= SITE_TEMPLATE_PATH ?>/img/header/startap.png" alt="Разработка сайтов SeoContext" title="Разработка сайтов SeoContext">
                     </div>
 
                 </div>
