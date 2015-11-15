@@ -121,7 +121,7 @@
 
                     <!-- PRODUCT IMAGE -->
                     <div class="header-image-right">
-                        <img class="anim-from-right" src="<?= SITE_TEMPLATE_PATH ?>/img/header/startap.png" alt>
+                        <img class="anim-from-right" src="<?= SITE_TEMPLATE_PATH ?>/img/header/startap.png" alt="Разработка сайтов SeoContext" title="Разработка сайтов SeoContext">
                     </div>
 
                 </div>

@@ -72,6 +72,8 @@
               <!-- OFFER 3 - FEATURED -->
               <div class="col-md-3 col-sm-6 col-xs-12 anim-bounce">
                   <div class="offer offer-best">
+
+                      <span class="best-buy"><img src="<?= SITE_TEMPLATE_PATH ?>/img/icons/best.png" alt="Оптимальный выбор"></span>
                     
                       <!-- OFFER NAME -->
                       <div class="offer-name">Интернет-магазин</div>
@@ -216,6 +218,8 @@
                     <div class="col-md-3 col-sm-6 col-xs-12 anim-bounce">
                         <div class="offer offer-best">
 
+                            <span class="best-buy"><img src="<?= SITE_TEMPLATE_PATH ?>/img/icons/best.png" alt="Оптимальный выбор"></span>
+
                             <!-- OFFER NAME -->
                             <div class="offer-name">SEO + КОНТЕКСТ</div>
 
@@ -355,6 +359,8 @@
                     <!-- OFFER 3 - FEATURED -->
                     <div class="col-md-3 col-sm-6 col-xs-12 anim-bounce">
                         <div class="offer offer-best">
+
+                            <span class="best-buy"><img src="<?= SITE_TEMPLATE_PATH ?>/img/icons/best.png" alt="Оптимальный выбор"></span>
 
                             <!-- OFFER NAME -->
                             <div class="offer-name">Настройка контекстной рекламной кампании</div>

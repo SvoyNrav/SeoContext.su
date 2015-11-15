@@ -1848,3 +1848,17 @@ footer .sm i{
 .carousel-element .about-icon{
   font-size: 85px;
 }
+
+#carousel-logos{
+  margin-top: 30px;
+}
+
+.best-buy {
+  position: absolute;
+  margin-top: -12%;
+  margin-left: -8%;
+}
+
+      .best-buy img{
+          height: 30px;
+      }
