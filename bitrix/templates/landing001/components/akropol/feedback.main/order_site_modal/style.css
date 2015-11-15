@@ -1,0 +1,11 @@
+.fancybox-inner h3:after {
+    max-width: none;
+}
+.fancybox-inner h3 {
+    margin-right: 30px;
+}
+
+.fancybox-inner .modal-dialog {
+    margin: 0;
+    padding: 0;
+}

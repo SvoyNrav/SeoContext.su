@@ -41,7 +41,7 @@
                         <div class="btn btn-lg btn-success anim-bounce-left">
                             <? $APPLICATION->IncludeComponent(
                                 "akropol:feedback.main",
-                                "feedback_modal",
+                                "order_site_modal",
                                 [
                                     "COMPONENT_TEMPLATE"         => ".default",
                                     "FORM_TITLE"                 => "Оставьте заявку на создание сайта",
