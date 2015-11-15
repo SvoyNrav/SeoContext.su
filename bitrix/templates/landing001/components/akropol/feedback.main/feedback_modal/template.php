@@ -23,10 +23,19 @@
                 data: <?=json_encode($arParams)?>,
                 complete: function () {
                     validator(jQuery);
-                    $('#submit_ajax').on('click',function(){
-                        $.post('<?=SITE_TEMPLATE_PATH?>/form.php',{'success':'<?=bitrix_sessid()?>'},function(result){
-                            $('#ajax').html(result);
-                        })
+                    $('#submit_ajax').on('click', function () {
+                        var params = $('#contact-form_ajax').serializeArray();
+                        params.push({"name": "submit", "value": "y"});
+                        var arParams = <?=CUtil::PhpToJSObject($arParams)?>;
+                        for (var property in arParams) {
+                            params.push({
+                                'name': property,
+                                'value': arParams[property]
+                            });
+                        }
+                        $.post('<?=$templateFolder?>/form.php', params, function (result) {
+                            $('.fancybox-inner').html(result);
+                        });
                     })
                 }
             }

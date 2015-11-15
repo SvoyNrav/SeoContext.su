@@ -11,10 +11,6 @@
      */
     $this->setFrameMode(true);
 ?>
-
-
-<div id="ajax">
-
     <? if (!empty($arResult["ERROR_MESSAGE"]))
     {
         ?>
@@ -27,6 +23,7 @@
     }
         if (strlen($arResult["OK_MESSAGE"]) > 0)
         {
+            var_dump($arResult["OK_MESSAGE"]);
             ?>
             <script>
                 $(document).ready(function () {
@@ -206,6 +203,3 @@
     <? endif; ?>
 
 </form>
-
-
-</div>

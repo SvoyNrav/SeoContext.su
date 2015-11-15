@@ -44,9 +44,9 @@
                                 "feedback_modal",
                                 [
                                     "COMPONENT_TEMPLATE"         => ".default",
-                                    "FORM_TITLE"                 => "",
+                                    "FORM_TITLE"                 => "Оставьте заявку на создание сайта",
                                     // Заголовок формы
-                                    "FORM_TITLE_TYPE"            => "H2",
+                                    "FORM_TITLE_TYPE"            => "H3",
                                     // Тип заголовка
                                     "FORM_TITLE_SIZE"            => "5",
                                     // Величина заголовка
@@ -74,7 +74,7 @@
                                     // Используется внутри другого компонента (или включаемой области)
                                     "MESSAGE_HIDTH"              => "10",
                                     // Высота поля "Сообщение" (число строк)
-                                    "BUTTON_MESSAGE"             => "Написать",
+                                    "BUTTON_MESSAGE"             => "Отправить",
                                     // Текст кнопки отправки
                                     "PROPERTY_CODE_BUTTON_COLOR" => "btn-primary",
                                     // Цвет кнопоки

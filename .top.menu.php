@@ -8,7 +8,7 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"О нас", 
+		"Услуги", 
 		"#about", 
 		Array(), 
 		Array(), 
@@ -29,7 +29,7 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Галерея", 
+		"Проекты", 
 		"#gallery", 
 		Array(), 
 		Array(), 

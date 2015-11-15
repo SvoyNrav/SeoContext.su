@@ -1,0 +1,6 @@
+.fancybox-inner h3:after {
+    max-width: none;
+}
+.fancybox-inner h3 {
+    margin-right: 30px;
+}
