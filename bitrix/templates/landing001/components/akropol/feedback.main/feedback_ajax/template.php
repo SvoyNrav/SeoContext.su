@@ -9,14 +9,12 @@
      * @global CMain $APPLICATION
      * @global CUser $USER
      */
-
-//    var_dump($arResult);
 ?>
 <? if (!empty($arResult["ERROR_MESSAGE"]))
 {
     ?>
     <!-- FAILURE - MESSAGE NOT SEND -->
-    <div  id="FormFailure" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    <div id="FormFailure" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
          aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -38,7 +36,8 @@
 
                 <!-- CLOSE THE MODAL BUTTON -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary btn-ok modal-close" data-dismiss="modal">Хорошо</button>
+                    <button type="button" class="btn btn-primary btn-ok modal-close" data-dismiss="modal">Хорошо
+                    </button>
                 </div>
 
             </div>
@@ -72,7 +71,8 @@
 
                     <!-- CLOSE THE MODAL BUTTON -->
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary btn-ok modal-close" data-dismiss="modal">Отлично!</button>
+                        <button type="button" class="btn btn-primary btn-ok modal-close" data-dismiss="modal">Отлично!
+                        </button>
                     </div>
 
                 </div>
@@ -117,11 +117,12 @@
                         <span class="elegant icon_profile"></span>
                     </div>
                     <!-- INPUT --> <input type="text" name="user_name" class="form-control" id="name_ajax"
-                                          placeholder="<?= $arParams['NAME_HINT_TEXT'] ?><? if (empty($arParams["REQUIRED_FIELDS"]) || in_array(
+                                          data-minlength="5"
+                                          placeholder="<?= $arParams['NAME_HINT_TEXT'] ?> <? $req = empty($arParams["REQUIRED_FIELDS"]) || in_array(
                                                   "NAME",
                                                   $arParams["REQUIRED_FIELDS"]
-                                              )
-                                          ): ?>*<? endif ?>" data-minlength="5" required=""
+                                              );
+                                              if ($req):?>*<? endif ?>" <? if (req): ?>required=""<? endif ?>
                                           value="<?= $arResult["AUTHOR_NAME"] ?>">
                 </div>
                 <!-- ERROR MESSAGE BOX -->
@@ -141,11 +142,13 @@
                         <span class="elegant icon_mail_alt"></span>
                     </div>
                     <!-- INPUT --> <input type="email" class="form-control" id="email_ajax"
-                                          placeholder="<?= $arParams['EMAIL_HINT_TEXT'] ?><? if (empty($arParams["REQUIRED_FIELDS"]) || in_array(
+                                          placeholder="<?= $arParams['EMAIL_HINT_TEXT'] ?>
+                                          <? $req = empty($arParams["REQUIRED_FIELDS"]) || in_array(
                                                   "EMAIL",
                                                   $arParams["REQUIRED_FIELDS"]
-                                              )
-                                          ): ?>*<? endif ?>" required="" name="user_email"
+                                              );
+                                              if ($req):?>*<? endif ?>" <? if (req): ?>required=""<? endif ?>
+                                          name="user_email"
                                           value="<?= $arResult["AUTHOR_EMAIL"] ?>">
                 </div>
                 <!-- ERROR MESSAGE BOX -->
@@ -164,12 +167,13 @@
                     <div class="input-group-addon">
                         <span class="elegant icon_mobile"></span>
                     </div>
-                    <!-- PHONE NUMBER INPUT --> <input type="tel" class="form-control" id="phone"
-                                                       placeholder="<?= $arParams['PHONE_HINT_TEXT'] ?><? if (empty($arParams["REQUIRED_FIELDS"]) || in_array(
+                    <!-- PHONE NUMBER INPUT --> <input type="tel" class="form-control" id="phone_ajax" data-minlength="10"
+                                                       placeholder="<?= $arParams['PHONE_HINT_TEXT'] ?> <? $req =( empty($arParams["REQUIRED_FIELDS"]) || in_array(
                                                                "PHONE",
                                                                $arParams["REQUIRED_FIELDS"]
-                                                           )
-                                                       ): ?>*<? endif ?>" name="user_phone" value="">
+                                                           ));
+                                                           if ($req):?>*<? endif ?>"
+                                                       <? if ($req): ?>required=""<? endif ?> name="user_phone" value="">
                 </div>
                 <!-- ERROR MESSAGE BOX -->
                 <div class="help-block with-errors">
@@ -191,11 +195,12 @@
                 </div>
                 <!-- TEXTAREA --> <textarea class="form-control" id="messagez_ajax" name="MESSAGE"
                                             rows="<?= $arParams['MESSAGE_HIDTH'] ?>"
-                                            placeholder="<?= $arParams['MESSAGE_HINT_TITLE'] ?><? if (empty($arParams["REQUIRED_FIELDS"]) || in_array(
+                                            placeholder="<?= $arParams['MESSAGE_HINT_TITLE'] ?> <? $req = empty($arParams["REQUIRED_FIELDS"]) || in_array(
                                                     "MESSAGE",
                                                     $arParams["REQUIRED_FIELDS"]
-                                                )
-                                            ): ?>*<? endif ?>" required=""></textarea>
+                                                );
+                                                if ($req):?>*<? endif ?>"
+                                            <? if (req): ?>required=""<? endif ?>></textarea>
             </div>
             <!-- ERROR MESSAGE BOX -->
             <div class="help-block with-errors">

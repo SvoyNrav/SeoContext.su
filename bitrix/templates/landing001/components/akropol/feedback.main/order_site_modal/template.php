@@ -22,7 +22,7 @@
             ajax: {
                 data: <?=json_encode($arParams)?>,
                 complete: function () {
-                    validator(jQuery);
+                    validator(jQuery,"validator_ajax");
                     var params = $('#contact-form_ajax').serializeArray();
                     params.push({"name": "submit", "value": "y"});
                     var arParams = <?=CUtil::PhpToJSObject($arParams)?>;
@@ -44,6 +44,8 @@
                             }
                         }
                     });
+                    $("#phone_ajax").inputmask("+7(999)999-99-99");//маска
+
                 }
             }
         });
