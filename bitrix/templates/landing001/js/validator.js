@@ -1,32 +1,7 @@
-/* ========================================================================
- * Bootstrap (plugin): validator.js v0.6.0
- * ========================================================================
- * The MIT License (MIT)
- *
- * Copyright (c) 2013 Spiceworks, Inc.
- * Made by Cina Saffary (@1000hz) in the style of Bootstrap 3 era @fat
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- * ======================================================================== */
-
-
-+function ($) {
+/**
+ * Created by Asus- on 14.11.2015.
+ */
+function validator($,data_toggle) {
   'use strict';
 
   // VALIDATOR CLASS DEFINITION
@@ -34,7 +9,7 @@
 
   var Validator = function (element, options) {
     this.$element = $(element)
-    this.options  = options
+    this.options = options
 
     this.$element.attr('novalidate', true) // disable automatic native validation
     this.toggleSubmit()
@@ -43,7 +18,7 @@
     this.$element.on('submit.bs.validator', $.proxy(this.onSubmit, this))
 
     this.$element.find('[data-match]').each(function () {
-      var $this  = $(this)
+      var $this = $(this)
       var target = $this.data('match')
 
       $(target).on('input.bs.validator', function (e) {
@@ -57,8 +32,8 @@
     html: false,
     disable: true,
     errors: {
-      match: 'Does not match',
-      minlength: 'Not long enough'
+      match: 'Введите значение',
+      minlength: 'Слишком короткое значение'
     }
   }
 
@@ -72,13 +47,15 @@
       return !$el.val() || $el.val() === $(target).val()
     },
     minlength: function ($el) {
+      if($el.attr('type')==='tel')
+        return $el.val().match(/^\+7\([0-9]{3}\)[0-9]{3}-[0-9]{2}\-[0-9]{2}/)|| ($el.val()==='');
       var minlength = $el.data('minlength')
       return !$el.val() || $el.val().length >= minlength
     }
   }
 
   Validator.prototype.validateInput = function (e) {
-    var $el        = $(e.target)
+    var $el = $(e.target)
     var prevErrors = $el.data('bs.validator.errors')
     var errors
 
@@ -97,8 +74,8 @@
 
       if (!prevErrors || errors.toString() !== prevErrors.toString()) {
         e = errors.length
-          ? $.Event('invalid.bs.validator', {relatedTarget: $el[0], detail: errors})
-          : $.Event('valid.bs.validator', {relatedTarget: $el[0], detail: prevErrors})
+            ? $.Event('invalid.bs.validator', {relatedTarget: $el[0], detail: errors})
+            : $.Event('valid.bs.validator', {relatedTarget: $el[0], detail: prevErrors})
 
         self.$element.trigger(e)
       }
@@ -111,19 +88,19 @@
 
 
   Validator.prototype.runValidators = function ($el) {
-    var errors     = []
+    var errors = []
     var validators = [Validator.VALIDATORS.native]
-    var deferred   = $.Deferred()
-    var options    = this.options
+    var deferred = $.Deferred()
+    var options = this.options
 
     $el.data('bs.validator.deferred') && $el.data('bs.validator.deferred').reject()
     $el.data('bs.validator.deferred', deferred)
 
     function getErrorMessage(key) {
       return $el.data(key + '-error')
-        || $el.data('error')
-        || key == 'native' && $el[0].validationMessage
-        || options.errors[key]
+          || $el.data('error')
+          || key == 'native' && $el[0].validationMessage
+          || options.errors[key]
     }
 
     $.each(Validator.VALIDATORS, $.proxy(function (key, validator) {
@@ -136,8 +113,12 @@
     if (!errors.length && $el.val() && $el.data('remote')) {
       this.defer($el, function () {
         $.get($el.data('remote'), [$el.attr('name'), $el.val()].join('='))
-          .fail(function (jqXHR, textStatus, error) { errors.push(getErrorMessage('remote') || error) })
-          .always(function () { deferred.resolve(errors)})
+            .fail(function (jqXHR, textStatus, error) {
+              errors.push(getErrorMessage('remote') || error)
+            })
+            .always(function () {
+              deferred.resolve(errors)
+            })
       })
     } else deferred.resolve(errors)
 
@@ -165,8 +146,10 @@
       if (!errors.length) return
 
       errors = $('<ul/>')
-        .addClass('list-unstyled')
-        .append($.map(errors, function (error) { return $('<li/>')[method](error) }))
+          .addClass('list-unstyled')
+          .append($.map(errors, function (error) {
+            return $('<li/>')[method](error)
+          }))
 
       $block.data('bs.validator.originalContent') === undefined && $block.data('bs.validator.originalContent', $block.html())
       $block.empty().append(errors)
@@ -182,7 +165,6 @@
     $block.html($block.data('bs.validator.originalContent'))
     $group.removeClass('has-error')
   }
-
   Validator.prototype.hasErrors = function () {
     function fieldErrors() {
       return !!($(this).data('bs.validator.errors') || []).length
@@ -193,9 +175,9 @@
 
   Validator.prototype.isIncomplete = function () {
     function fieldIncomplete() {
-      return this.type === 'checkbox' ? !this.checked                                   :
-             this.type === 'radio'    ? !$('[name="' + this.name + '"]:checked').length :
-                                        $.trim(this.value) === ''
+      return this.type === 'checkbox' ? !this.checked :
+          this.type === 'radio' ? !$('[name="' + this.name + '"]:checked').length :
+          $.trim(this.value) === ''
     }
 
     return !!this.$element.find(':input[required]:enabled').filter(fieldIncomplete).length
@@ -207,10 +189,10 @@
   }
 
   Validator.prototype.toggleSubmit = function () {
-    if(!this.options.disable) return
+    if (!this.options.disable) return
     var $btn = this.$element.find('input[type="submit"], button[type="submit"]')
     $btn.toggleClass('disabled', this.isIncomplete() || this.hasErrors())
-      .css({'pointer-events': 'all', 'cursor': 'pointer'})
+        .css({'pointer-events': 'all', 'cursor': 'pointer'})
   }
 
   Validator.prototype.defer = function ($el, callback) {
@@ -221,21 +203,21 @@
 
   Validator.prototype.destroy = function () {
     this.$element
-      .removeAttr('novalidate')
-      .removeData('bs.validator')
-      .off('.bs.validator')
+        .removeAttr('novalidate')
+        .removeData('bs.validator')
+        .off('.bs.validator')
 
     this.$element.find(':input')
-      .removeData(['bs.validator.errors', 'bs.validator.deferred', 'bs.validator.timeout'])
-      .off('.bs.validator')
+        .removeData(['bs.validator.errors', 'bs.validator.deferred', 'bs.validator.timeout'])
+        .off('.bs.validator')
 
     this.$element.find('.help-block.with-errors').each(function () {
       var $this = $(this)
       var originalContent = $this.data('bs.validator.originalContent')
 
       $this
-        .removeData('bs.validator.originalContent')
-        .html(originalContent)
+          .removeData('bs.validator.originalContent')
+          .html(originalContent)
     })
 
     this.$element.find('input[type="submit"], button[type="submit"]').removeClass('disabled')
@@ -251,9 +233,9 @@
 
   function Plugin(option) {
     return this.each(function () {
-      var $this   = $(this)
+      var $this = $(this)
       var options = $.extend({}, Validator.DEFAULTS, $this.data(), typeof option == 'object' && option)
-      var data    = $this.data('bs.validator')
+      var data = $this.data('bs.validator')
 
       if (!data && option == 'destroy') return
       if (!data) $this.data('bs.validator', (data = new Validator(this, options)))
@@ -263,7 +245,7 @@
 
   var old = $.fn.validator
 
-  $.fn.validator             = Plugin
+  $.fn.validator = Plugin
   $.fn.validator.Constructor = Validator
 
 
@@ -279,11 +261,14 @@
   // VALIDATOR DATA-API
   // ==================
 
-  $(window).on('load', function () {
-    $('form[data-toggle="validator"]').each(function () {
-      var $form = $(this)
-      Plugin.call($form, $form.data())
-    })
+  $('form[data-toggle='+data_toggle+']').each(function () {
+    var $form = $(this)
+    Plugin.call($form, $form.data())
   })
+}
 
-}(jQuery);
+validator(jQuery,"validator");
+
+$(document).ready(function() {
+  $("#phone").inputmask("+7(999)999-99-99");//маска
+});

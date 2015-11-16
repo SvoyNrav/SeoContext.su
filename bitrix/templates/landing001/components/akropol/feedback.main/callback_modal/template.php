@@ -1,10 +1,11 @@
-<?php if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die()/**
+<?php if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
+    /**
  * Created by PhpStorm.
  * User: Asus-
  * Date: 14.11.2015
  * Time: 16:13
  */
-; ?>
+ ?>
 <button type="button" class="btn btn-lg btn-tel">Обратный звонок</button>
 
 <script>
@@ -15,7 +16,7 @@
             ajax: {
                 data: <?=json_encode($arParams)?>,
                 complete: function () {
-                    validator(jQuery);
+                    validator(jQuery,"validator_ajax");
                     var params = $('#contact-form_ajax').serializeArray();
                     params.push({"name": "submit", "value": "y"});
                     var arParams = <?=CUtil::PhpToJSObject($arParams)?>;
@@ -37,6 +38,7 @@
                             }
                         }
                     });
+                    $("#phone_ajax").inputmask("+7(999)999-99-99");//маска
                 }
             }
         });

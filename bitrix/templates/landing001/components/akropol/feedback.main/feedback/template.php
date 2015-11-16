@@ -86,7 +86,7 @@ if(strlen($arResult["OK_MESSAGE"]) > 0)
 				<div class="input-group-addon">
 					<span class="elegant icon_mobile"></span>
 				</div>
-				 <!-- PHONE NUMBER INPUT --> <input type="tel" class="form-control" id="phone" placeholder="<?=$arParams['PHONE_HINT_TEXT']?><?if(empty($arParams["REQUIRED_FIELDS"]) || in_array("PHONE", $arParams["REQUIRED_FIELDS"])):?>*<?endif?>" name="user_phone" value="">
+				 <!-- PHONE NUMBER INPUT --> <input type="tel" class="form-control" id="phone" placeholder="<?=$arParams['PHONE_HINT_TEXT']?><?if(empty($arParams["REQUIRED_FIELDS"]) || in_array("PHONE", $arParams["REQUIRED_FIELDS"])):?>*<?endif?>" name="user_phone" value="" data-minlength="10">
 			</div>
 			 <!-- ERROR MESSAGE BOX -->
 			<div class="help-block with-errors">
