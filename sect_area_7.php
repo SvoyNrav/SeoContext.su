@@ -20,14 +20,7 @@
                 
                 <!-- AVATAR -->
                 <img class="avatar" src="<?=SITE_TEMPLATE_PATH?>/img/avatars/01.jpg" alt>
-                
-                <!-- SOCIAL MEDIA LINKS -->
-                <p class="socialmedia">
-                    <a href="#facebook"><span class="social_facebook_circle"></span></a>
-                    <a href="#twitter"><span class="social_twitter_circle"></span></a> 
-                    <a href="skype:live:sharapudinov"><span class="social_skype_circle"></span></a>
-                </p>
-                
+
                 <p class="personal">
                     
                     <!-- NAME -->
@@ -44,14 +37,7 @@
                 
                 <!-- AVATAR -->
                 <img class="avatar" src="<?=SITE_TEMPLATE_PATH?>/img/avatars/02.jpg" alt>
-                
-                <!-- SOCIAL MEDIA LINKS -->
-                <p class="socialmedia">
-                    <a href="#facebook"><span class="social_facebook_circle"></span></a>
-                    <a href="#twitter"><span class="social_twitter_circle"></span></a> 
-                    <a href="skype:svoynrav"><span class="social_skype_circle"></span></a>
-                </p>
-                
+
                 <p class="personal">
                     
                     <!-- NAME -->
@@ -68,14 +54,7 @@
                 
                 <!-- AVATAR -->
                 <img class="avatar" src="<?=SITE_TEMPLATE_PATH?>/img/avatars/03.jpg" alt>
-                
-                <!-- SOCIAL MEDIA LINKS -->
-                <p class="socialmedia">
-                    <a href="#facebook"><span class="social_facebook_circle"></span></a>
-                    <a href="#twitter"><span class="social_twitter_circle"></span></a> 
-                    <a href="skype:subbotin-oleg"><span class="social_skype_circle"></span></a>
-                </p>
-                
+
                 <p class="personal">
                     
                     <!-- NAME -->
@@ -92,14 +71,7 @@
                 
                 <!-- AVATAR -->
                 <img class="avatar" src="<?=SITE_TEMPLATE_PATH?>/img/avatars/04.jpg" alt>
-                
-                <!-- SOCIAL MEDIA LINKS -->
-                <p class="socialmedia">
-                    <a href="#facebook"><span class="social_facebook_circle"></span></a>
-                    <a href="#twitter"><span class="social_twitter_circle"></span></a> 
-                    <a href="skype:icewallker"><span class="social_skype_circle"></span></a>
-                </p>
-                
+
                 <p class="personal">
                     
                     <!-- NAME -->
@@ -116,14 +88,7 @@
                 
                 <!-- AVATAR -->
                 <img class="avatar" src="<?=SITE_TEMPLATE_PATH?>/img/avatars/05.jpg" alt>
-                
-                <!-- SOCIAL MEDIA LINKS -->
-                <p class="socialmedia">
-                    <a href="#facebook"><span class="social_facebook_circle"></span></a>
-                    <a href="#twitter"><span class="social_twitter_circle"></span></a> 
-                    <a href="skype:drezdenm"><span class="social_skype_circle"></span></a>
-                </p>
-                
+
                 <p class="personal">
                     
                     <!-- NAME -->
@@ -140,13 +105,6 @@
                 
                 <!-- AVATAR -->
                 <img class="avatar" src="<?=SITE_TEMPLATE_PATH?>/img/avatars/06.jpg" alt>
-                
-                <!-- SOCIAL MEDIA LINKS -->
-                <p class="socialmedia">
-                    <a href="#facebook"><span class="social_facebook_circle"></span></a>
-                    <a href="#twitter"><span class="social_twitter_circle"></span></a> 
-                    <a href="skype:"><span class="social_skype_circle"></span></a>
-                </p>
                 
                 <p class="personal">
                     

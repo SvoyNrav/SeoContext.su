@@ -233,6 +233,7 @@ h6 {
 .icon-list .txt {
   float: left;
   max-width: 90%;
+  font-weight: bold;
 }
 .noopacity {
   opacity: 0;
@@ -419,7 +420,7 @@ fieldset[disabled] .btn {
   color: #333333 !important;
 }
 .nav-light li a {
-  color: #999999;
+  color: #fff;
 }
 .gradient-overlay-sec .nav-light li,
 .gradient-overlay-sec .nav-light li:first-of-type,
@@ -1015,7 +1016,7 @@ fieldset[disabled] .btn {
 }
 
 #testimonials {
-  background: url(../img/header/background.png);
+  background: url(../img/parallax_bg/01.png);
   background-size: cover;
 }
 .carousel-element {
@@ -1227,7 +1228,7 @@ fieldset[disabled] .btn {
 }
 
 #tabs {
-  background: url(../img/header/background.png);
+  background: url(../img/parallax_bg/01.png);
   background-size: cover;
   margin-bottom: 80px;
 }
@@ -1252,6 +1253,7 @@ fieldset[disabled] .btn {
 }
 #tabs p {
   line-height: 1.6em;
+  font-weight: bold;
 }
 #tabs .icon-list {
   margin-bottom: 35px;
@@ -1848,3 +1850,17 @@ footer .sm i{
 .carousel-element .about-icon{
   font-size: 85px;
 }
+
+#carousel-logos{
+  margin-top: 30px;
+}
+
+.best-buy {
+  position: absolute;
+  margin-top: -12%;
+  margin-left: -8%;
+}
+
+      .best-buy img{
+          height: 30px;
+      }
