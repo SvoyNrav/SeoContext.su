@@ -91,7 +91,10 @@
                     <div class="offer-name"><?= $arItem['NAME'] ?></div>
 
                     <!-- PRICE -->
-                    <div class="offer-price"><span></span><span>25.000</span><span>руб</span></div>
+                    <div class="offer-price">
+                        <span><?=$arItem['PROPERTIES']['PRICE']['VALUE']?></span>
+                        <span>руб</span>
+                    </div>
 
                     <!-- OFFER FEATURES -->
                     <div class="offer-features">

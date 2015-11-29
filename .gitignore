@@ -19,6 +19,7 @@
 # .idea/dataSources.xml
 # .idea/sqlDataSources.xml
 # .idea/dynamic.xml
+/.gitignore
 # .idea/uiDesigner.xml
 
 # Gradle:
