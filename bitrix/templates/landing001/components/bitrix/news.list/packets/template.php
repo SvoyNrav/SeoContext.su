@@ -10,25 +10,15 @@
     /** @var string $templateFolder */
     /** @var string $componentPath */
     /** @var CBitrixComponent $component */
-?>
-<pre>
-	<?
-        //var_dump($arResult);
-    ?>
-	</pre>
-<?
+
     $this->setFrameMode(true);
-?>
-<? $section_counter == 0; ?>
-<div class="container">
-    <div class="row">
-        <? foreach ($arResult["ITEMS"] as $key => $arItem): ?>
-        <? //var_dump($arItem);
-            if ($section_id != $arItem['IBLOCK_SECTION_ID']): ?>
-        <? $section_id = $arItem['IBLOCK_SECTION_ID'] ?>
-        <? $section_counter++ ?>
-        <? if ($key != 0): ?>
-    </div>
+    $section_counter == 0;
+    foreach ($arResult["ITEMS"] as $key => $arItem):
+    if ($section_id != $arItem['IBLOCK_SECTION_ID']): ?>
+<? $section_id = $arItem['IBLOCK_SECTION_ID'] ?>
+<? $section_counter++ ?>
+<? if ($key != 0): ?>
+</div>
 </div>
 <? if ($section_counter == 2): ?>
 <!-- LOAD MORE FEATURES BUTTON -->
@@ -44,16 +34,20 @@
 <div id="MorePrices" class="panel-collapse collapse">
 
     <? endif ?>
+    <? endif ?>
+    <!-- SECTION TITLE -->
+    <h2 class="anim-fade-down">
+        <!-- TITLE -->
+        <?= $arResult['SECTIONS'][ $arItem['IBLOCK_SECTION_ID'] ]['NAME'] ?><br/>
+        <!-- SUBTITLE -->
+        <span><?= $arResult['SECTIONS'][ $arItem['IBLOCK_SECTION_ID'] ]['UF_SUBTITLE'] ?></span>
+    </h2>
+
     <div class="container">
+
         <div class="row">
-            <? endif ?>
-            <!-- SECTION TITLE -->
-            <h2 class="anim-fade-down">
-                <!-- TITLE -->
-                <?= $arResult['SECTIONS'][ $arItem['IBLOCK_SECTION_ID'] ]['NAME'] ?><br/>
-                <!-- SUBTITLE -->
-                <span><?= $arResult['SECTIONS'][ $arItem['IBLOCK_SECTION_ID'] ]['UF_SUBTITLE'] ?></span>
-            </h2>
+
+
 
 
             <? endif ?>
@@ -92,7 +86,8 @@
 
                     <!-- PRICE -->
                     <div class="offer-price">
-                        <span><?=$arItem['PROPERTIES']['PRICE']['VALUE']?></span>
+                        <span></span>
+                        <span><?= $arItem['PROPERTIES']['PRICE']['VALUE'] ?></span>
                         <span>руб</span>
                     </div>
 
