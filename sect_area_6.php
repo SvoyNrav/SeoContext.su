@@ -2,7 +2,7 @@
     <? $APPLICATION->IncludeComponent(
         "bitrix:news.list",
         "packets",
-        [
+        array(
             "ACTIVE_DATE_FORMAT"              => "d.m.Y",
             "ADD_SECTIONS_CHAIN"              => "Y",
             "AJAX_MODE"                       => "N",
@@ -69,7 +69,7 @@
             "SEARCH_PAGE"                     => "/search/",
             "USE_RATING"                      => "N",
             "USE_SHARE"                       => "N"
-        ],
+        ),
         false
     ); ?>
 </section>

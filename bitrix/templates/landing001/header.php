@@ -111,11 +111,11 @@
             <? $APPLICATION->IncludeComponent(
                 "bitrix:main.include",
                 "",
-                [
+                array(
                     "AREA_FILE_SHOW" => "file",
                     "PATH"           => SITE_TEMPLATE_PATH . "/include/logo.php",
                     "EDIT_TEMPLATE"  => ""
-                ],
+                ),
                 false
             ); ?>
 
@@ -126,54 +126,39 @@
             <? $APPLICATION->IncludeComponent(
                 "akropol:feedback.main",
                 "callback_modal",
-                [
-                    "COMPONENT_TEMPLATE"         => ".default",
+                array(
+                    "COMPONENT_TEMPLATE"         => "callback_modal",
                     "FORM_TITLE"                 => "Оставьте номер телефона и мы перезвоним",
-                    // Заголовок формы
                     "FORM_TITLE_TYPE"            => "H3",
-                    // Тип заголовка
                     "FORM_TITLE_SIZE"            => "5",
-                    // Величина заголовка
                     "USE_CAPTCHA"                => "N",
-                    // Использовать защиту от автоматических сообщений (CAPTCHA) для неавторизованных пользователей
                     "OK_TEXT"                    => "Спасибо, ваше сообщение принято.",
-                    // Сообщение, выводимое пользователю после отправки
                     "EMAIL_TO"                   => "contacts@seocontext.su",
-                    // E-mail, на который будет отправлено письмо
-                    "USED_FIELDS"                => [    // Выводить поля
-                                                         0 => "NAME",
-                                                         1 => "PHONE"
-                    ],
-                    "REQUIRED_FIELDS"            => [    // Обязательные поля для заполнения
-                                                         0 => "NAME",
-                                                         1 => "PHONE",
-                    ],
-                    "EVENT_MESSAGE_ID"           => [    // Почтовые шаблоны для отправки письма
-                                                         0 => "8",
-                    ],
+                    "USED_FIELDS"                => array(
+                        0 => "NAME",
+                        1 => "PHONE",
+                    ),
+                    "REQUIRED_FIELDS"            => array(
+                        0 => "NAME",
+                        1 => "PHONE",
+                    ),
+                    "EVENT_MESSAGE_ID"           => array(
+                        0 => "7",
+                        1 => "8",
+                    ),
                     "USE_IN_COMPONENT"           => "N",
-                    // Используется внутри другого компонента (или включаемой области)
                     "MESSAGE_WIDTH"              => "10",
-                    // Высота поля "Сообщение" (число строк)
-                    "BUTTON_MESSAGE"             => "Отправить",
-                    // Текст кнопки отправки
+                    "BUTTON_MESSAGE"             => "Обратный звонок",
                     "PROPERTY_CODE_BUTTON_COLOR" => "btn-primary",
-                    // Цвет кнопоки
                     "NAME_HINT_TITLE"            => "Ваше имя",
-                    // Заголовок для поля ИМЯ
                     "NAME_HINT_TEXT"             => "Ваше имя",
-                    // Подсказка в поле ИМЯ
                     "EMAIL_HINT_TITLE"           => "Ваш e-mail",
-                    // Заголовок в поле email
                     "EMAIL_HINT_TEXT"            => "email",
-                    // Подсказка в поле email
                     "PHONE_HINT_TITLE"           => "Ваш телефон",
-                    // Заголовок в поле телефон
                     "PHONE_HINT_TEXT"            => "+7(926)123-45-67",
-                    // Подсказка в поле телефон
                     "MESSAGE_HINT_TITLE"         => "Сообщение",
-                    // Заголовок в поле Сообщение
-                ],
+                    "MESSAGE_HIDTH"              => "10"
+                ),
                 false
             ); ?>
         </div>
@@ -193,7 +178,7 @@
         <? $APPLICATION->IncludeComponent(
             "bitrix:menu",
             "top_menu",
-            [
+            array(
                 "ROOT_MENU_TYPE"        => "top",
                 "MENU_CACHE_TYPE"       => "N",
                 "MENU_CACHE_TIME"       => "3600",
@@ -204,7 +189,7 @@
                 "USE_EXT"               => "N",
                 "DELAY"                 => "N",
                 "ALLOW_MULTI_SELECT"    => "N"
-            ]
+            )
         ); ?>
 
     </div>

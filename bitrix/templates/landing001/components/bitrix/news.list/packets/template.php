@@ -103,7 +103,47 @@
 
                     <!-- BUY BUTTON -->
                     <div class="offer-buy">
-                        <button type="button" class="btn btn-lg btn-info">Заказать!</button>
+                        <? $APPLICATION->IncludeComponent(
+                            "akropol:feedback.main",
+                            "order_packet_modal",
+                            array(
+                                "COMPONENT_TEMPLATE"         => "callback_modal",
+                                "FORM_TITLE"                 => "Форма заказа пакета '{$arItem['NAME']}'",
+                                "FORM_TITLE_TYPE"            => "H3",
+                                "FORM_TITLE_SIZE"            => "5",
+                                "USE_CAPTCHA"                => "N",
+                                "OK_TEXT"                    => "Спасибо, ваше сообщение принято.",
+                                "EMAIL_TO"                   => "contacts@seocontext.su",
+                                "USED_FIELDS"                => array(
+                                    0 => "NAME",
+                                    1 => "PHONE",
+                                    2=> "EMAIL"
+                                ),
+                                "REQUIRED_FIELDS"            => array(
+                                    0 => "NAME",
+                                    1 => "PHONE",
+                                    2=> "EMAIL"
+
+                                ),
+                                "EVENT_MESSAGE_ID"           => array(
+                                    0 => "7",
+                                    1 => "8",
+                                ),
+                                "USE_IN_COMPONENT"           => "Y",
+                                "MESSAGE_WIDTH"              => "10",
+                                "BUTTON_MESSAGE"             => "Заказать",
+                                "PROPERTY_CODE_BUTTON_COLOR" => "btn-primary",
+                                "NAME_HINT_TITLE"            => "Ваше имя",
+                                "NAME_HINT_TEXT"             => "Ваше имя",
+                                "EMAIL_HINT_TITLE"           => "Ваш e-mail",
+                                "EMAIL_HINT_TEXT"            => "email",
+                                "PHONE_HINT_TITLE"           => "Ваш телефон",
+                                "PHONE_HINT_TEXT"            => "+7(926)123-45-67",
+                                "MESSAGE_HINT_TITLE"         => "Сообщение",
+                                "MESSAGE_HIDTH"              => "10"
+                            ),
+                            $component
+                        ); ?>
                     </div>
 
                 </div>
